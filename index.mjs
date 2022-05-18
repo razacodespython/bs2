@@ -10,10 +10,10 @@ dotenv.config();
 //     process.env.PRIVATE_KEY,
 //     // RPC URL FROM QUICKNODE ENTER HERE👇
 //     ethers.getDefaultProvider(
-//       'https://polygon-mumbai.g.alchemy.com/v2/5XZxhplSa57M8sBDtVtcQ-zvPzNg4lRN'
+//       ''
 //     )
 //   );
-const provider = 'https://polygon-mumbai.g.alchemy.com/v2/5XZxhplSa57M8sBDtVtcQ-zvPzNg4lRN'
+const provider = ''
 const sdk = new ThirdwebSDK(provider);
 const contract = await sdk.getContract("0xE0ab3D51a3374c371c5D8a39Dc1418FE399ae2EE");
 
